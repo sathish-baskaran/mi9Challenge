@@ -1,0 +1,36 @@
+<!--SB: 'Vash is the view engine on nodejs and it's same as MVC razor engine-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@model.title </title>
+
+</head>
+<body>
+
+    <!--SB: 'Handling error here including 400 bad request-->
+    @if(model.error){
+	   <p>@model.error </p>
+    }
+    
+@model.loads.forEach(function(node)
+{
+node.details.forEach(function(item)
+{
+
+    if(item.episodeCount > 0  && item.drm == true)
+    {
+ 
+    <div>Image: <a href="@item.image.showImage">@item.image.showImage</a></div>
+
+    <div>Slug: @item.slug </div>
+
+    <div>Title: @item.title </div>
+    }
+           <br />
+    })
+
+    })
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "mi9Challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sathish-baskaran/mi9Challenge.git"
+  },
+  "author": "SATHISH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sathish-baskaran/mi9Challenge/issues"
+  },
+  "homepage": "https://github.com/sathish-baskaran/mi9Challenge",
+  "dependencies": {
+    "express": "^4.11.2",
+    "vash": "^0.7.12-1"
+  }
+}
