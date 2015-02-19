@@ -18,6 +18,10 @@
   "homepage": "https://github.com/sathish-baskaran/mi9Challenge",
   "dependencies": {
     "express": "^4.11.2",
+    "jquery": "^2.1.3",
     "vash": "^0.7.12-1"
+  },
+  "devDependencies": {
+    "bower": "^1.3.12"
   }
 }
